@@ -1,0 +1,86 @@
+﻿*{margin:0px auto;padding:0px; }
+.sredina{
+width:640px;
+min-height:788px;
+float:left;
+background-color:#B1B1B1;
+font-family: 'Permanent Marker', cursive;
+}
+.sredina h2{
+padding:30px;
+}
+fieldset{
+margin:50px 100px 0px 100px;
+width:450px;
+height:450px;
+border-radius:10px;
+box-shadow: 1px 1px 25px white;
+text-shadow: 1px 1px 25px white;
+}
+.contact-button{
+padding:0px 39px;
+box-shadow: 1px 1px 25px white;
+font-family: 'Permanent Marker', cursive;
+}
+.sredina h2{
+text-shadow:1px 1px white;
+}
+.slika{
+width:600px;
+height:600px;
+margin-left:20px;
+padding-bottom:20px;
+border-radius:20px;
+}
+div#about{
+display:inline;
+height:400px;
+}
+div#logos{
+margin-top:-20px;
+float:left;
+margin-left:120px;
+}
+.sch_logo{
+margin-right:30px;
+}
+h2{
+text-align:center;
+}
+div#photo img{
+margin-left:10px;
+width:620px;
+height:200px;
+}
+div#photoo img{
+float:left;
+opacity:0.8;
+filter: Alpha(opacity=80);
+width:200px;
+height:200px;
+box-shadow: 1px 1px 25px white;
+margin-left:120px;
+margin-right:50px;
+border-radius:10px;
+}
+div#photoo img:hover{
+opacity:1;
+filter: Alpha(opacity=100);
+width:200px;
+height:200px;
+box-shadow: 1px 1px 25px white;
+margin-left:120px;
+margin-right:50px;
+}
+.kolona{width:500px;height:130px;overflow:hidden;position:relative;margin:20px auto;margin-left:90px}
+.kolona img{width:110px;height:110px;opacity:0.6;filter: Alpha(opacity=80);}
+.kolona img:hover{width:110px;height:110px; opacity:1;}
+#slike{width:600px;height:300px;overflow:hidden;position:relative;margin:20px auto;}
+#slike img{width:600px;height:300px;
+		  position:absolute;top:0;left:-400px;z-index:1;opacity:0;transition:all linear 500ms;
+		  -o-transition:all linear 500ms;-moz-transition:all linear 500ms;-webkit-transition:all linear 500ms;}
+#slike img:target{left:0;z-index:9;opacity:1;}
+#slike img:first-child{left:0;}
+#slajder{width:600px;margin:0 auto;text-align:center;}
+#slajder a{padding:10px; text-decoration:none;background:black;border:1px solid white;padding:4px 6px;color:white;}
+#slajder a:hover{  background:white;color:black;border:1px solid black;}					   

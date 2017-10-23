@@ -1,0 +1,266 @@
+﻿*{margin:0px auto;padding:0px; }
+#background {
+width: 100%; 
+height: 100%; 
+position: fixed; 
+left: 0px; 
+top: 0px; 
+z-index: -1; 
+}
+.pozadina1{
+width:100%;
+height:100%;
+}
+div#omot{
+width:1024px;
+min-height:1412px;
+box-shadow: 1px 1px 25px #CCC;
+}
+header{
+width:1024px;
+height:96px;
+background-color:#000;
+}
+header a{
+font:"Carnevalee Freakshow";
+font-family: 'Audiowide', cursive;
+padding-top:30px;
+text-decoration:none;
+color:#fff;
+text-decoration:none;
+}
+header h1 {
+padding:25px;
+}
+div#slika{
+width:1024px;
+height:416px;
+background-image:url("pictures/slika.jpg");
+box-shadow: 1px 1px 25px #CCC;
+}
+#pretraga{
+padding:10px 10px 10px 10px;
+border-radius:10px;
+float:right;
+
+}
+img.frg_icon{
+padding-top:2px;
+width:38px;
+height:38px;
+}
+section.meni{
+width:1024px;
+height:48px;
+background-color:#000;
+box-shadow: 1px 1px 25px #CCC;
+}
+section.meni ul{
+text-decoration:none;
+list-style-type:none;
+text-align:center;
+}
+section.meni li{
+float:left;
+text-decoration:none;
+width:160px;
+height:48px;
+}
+section.meni li a{
+color:#fff;
+margin:auto;
+text-decoration:none;
+text-align:center;
+font-family: 'Frijole', cursive;
+width:160px;
+height:48px;
+position:relative;
+padding-top:14px;
+}
+a.current {
+background-color:#B3B3B3;
+border-top-right-radius:10px;
+border-top-left-radius:10px;
+width:160px;
+height:48px;
+padding-top:14px;
+text-shadow:1px 1px 20px black;
+}
+a.current:hover{
+color:black;
+}
+.heder
+{
+display:inline-block;
+}
+nav{
+padding:0px 192px 0px 192px;
+}
+section.sadrzaj{
+width:1024px;
+min-height:788px;
+box-shadow: 1px 1px 25px #CCC;
+}
+section.levo{
+width:192px;
+min-height:788px;
+float:left;
+background-color:#000;
+font-size:18px;
+font-family: 'Denk One', sans-serif;
+}
+article.prijava{
+margin-top:10px;
+padding:10px;
+border-bottom:1px solid white;
+color:#fff;
+text-align: center;
+border-bottom-left-radius:10px;
+}
+input, .ddlCho{
+border-radius:3px;
+font-family: 'Denk One', sans-serif;
+}
+.prijava{
+border-radius:3px;
+padding:0px 15px;
+}
+.posalji{
+width:80px;
+}
+article.ocena{
+padding:12px;
+border-bottom:1px solid white;
+color: #fff;
+border-bottom-left-radius:10px;
+text-align: justify;
+margin-top: 26px;
+margin-bottom: 26px;
+}
+article.godina{
+padding:10px;
+border-bottom:1px solid white;
+color:#fff;
+border-bottom-left-radius:10px;
+}
+.sredina{
+width:640px;
+min-height:788px;
+float:left;
+background-color:#B1B1B1;
+font-family: 'Permanent Marker', cursive;
+}
+.sredina p{
+padding-top:1px;
+margin:10px;
+text-shadow:1px 1px white;
+}
+.slika{
+width:600px;
+height:600px;
+margin-left:20px;
+margin-top:10px;
+padding-bottom:20px;
+border-radius:20px;
+}
+.desno{
+width:192px;
+min-height:788px;
+float:left;
+background-color:#000;
+}
+.dropdown{
+color:white;
+padding:10px;
+margin-top:60px;
+border-bottom:1px solid white;
+border-bottom-right-radius:10px;
+font-family: 'Denk One', sans-serif;
+text-align:center;
+}
+article.novosti{width:192px; margin-bottom:1px;font-family:Arial;margin-top:50px;border-bottom-right-radius:10px;}
+.novosti ul{list-style:none;margin:0;padding:0;border:none;font-size:20px;margin-top: -36px;}
+.novosti li{margin:0;text-align:center;border-bottom-right-radius:10px;}
+.novosti li a{display:block;background-color:#000;color:#fff;text-decoration:underline;width:100%;font-weight:bold;font-style:italic;border-bottom-right-radius:10px;font-family: 'Denk One', sans-serif;}
+.novosti a{width:auto;padding:25px 0px;border-bottom:1px solid white;}
+.novosti li a:hover{border:1px 1px 1px 0px solid #fff;color:#000;background-color:#b1b1b1;border-bottom-right-radius:10px;}
+.novosti p{color:white;text-align:center;border-bottom:5px solid white;border-bottom-right-radius:10px;padding-bottom:43px;font-weight:bold;font-family: 'Denk One', sans-serif;}
+section.cisti{
+float:none;
+}
+article.icons{
+font-family: 'Denk One', sans-serif;
+margin-top: 24px;
+padding:2px;
+text-align:center;
+border-bottom:1px solid white;
+border-bottom-right-radius:10px;
+padding-bottom:20px;
+}
+article.icons p{
+color:white;
+}
+.icon
+{
+width:50px;
+height:50px;
+}
+footer{
+width:1024px;
+min-height:112px;
+color:white;
+background-color:#000;
+}
+img.rss_icon {
+width:40px;
+height:40px;
+}
+img.stm_icon {
+width:40px;
+height:40px;
+}
+div#copyright p {
+color:white;
+font-family: 'Denk One', sans-serif;
+width: 370px;
+}
+section.menii{
+text-decoration:none;
+width:645px;
+height:48px;
+background-color:#000;
+display:inline;
+}
+div#copyright{
+min-height:69px;
+width:370px;
+background-color:#000;
+text-align:center;
+}
+section.menii ul{
+text-align:center;
+list-style-type:none;
+}
+section.menii li{
+float:left;
+width:160px;
+height:48px;
+}
+section.menii li a{
+color:#fff;
+margin:auto;
+text-decoration:underline;
+text-align:center;
+font-size:12px;
+width:160px;
+height:32px;
+position:relative;
+padding-top:14px;
+font-family: 'Frijole', cursive;
+
+}
+.futer
+{
+text-decoration:none;
+display:inline-block;
+}

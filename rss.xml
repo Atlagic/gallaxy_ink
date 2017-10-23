@@ -1,0 +1,32 @@
+﻿<rss version="2.0">
+<channel>
+<item>
+<title>TATTOO STUDIO : Galaxy ink.</title>
+<description>
+The latest news from the tattoo world straight from your favorite web site.
+</description>
+<link><!--/index.html--></link>
+</item>
+<item>
+<title>About designer</title>
+<description>All informations you need about web designer of this site.</description>
+<link>
+<!--/about.html-->
+</link>
+</item>
+<item>
+<title>Be in the contact with us!</title>
+<description>
+If you want a brand new tattoo from one of the best tattoo masters from our studio - contact us - 
+</description>
+<link><!--/contact.html--></link>
+</item>
+<item>
+<title>Albums of tattoos of our customers.</title>
+<description>Our gallery is waiting for your pictures!</description>
+<link>
+<!--/gallery.html-->
+</link>
+</item>
+</channel>
+</rss>
